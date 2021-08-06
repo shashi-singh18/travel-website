@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Baloo+Bhaina+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body{
+  background-image: url(travel_pic.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: Akaya Kanadaka;
+}
+
+.left{
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  top: 15px;
+}
+
+.mid{
+  display: block;
+  width: 40%;
+  margin: 15px auto;
+}
+
+.right{
+  position: absolute;
+  right: 34px;
+  top: 15px;
+  display: inline-block;
+}
+
+.left img{
+  width: 100px;
+}
+
+.left div{
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.navbar{
+  display: inline-block;
+}
+
+.navbar li{
+  display: inline-block;
+  font-size: 18px;
+}
+
+.navbar li a{
+  color: rgb(96, 29, 122);
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar li a:hover{
+  color: palevioletred;
+}
+
+.social
+{
+  display: flex;
+  align-items: center;
+}
+
+.social li{
+  list-style: none;
+}
+
+.social li a{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+
+.container{
+  font-family: Alfa Slab One;
+  margin: 172px 292px;
+  padding: 39px 56px;
+  width: 41%;
+  /* border-radius: 25px; */
+}
+
+.container a
+{
+  font-family: serif;
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.container a:hover
+{
+  letter-spacing: 6px;
+}
