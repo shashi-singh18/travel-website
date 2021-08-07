@@ -41,7 +41,9 @@ body{
 }
 
 .navbar{
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
 }
 
 .navbar li{
